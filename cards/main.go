@@ -1,10 +1,11 @@
 package main
 
+import "fmt"
+
 func main() {
 	//var card string = "Ace of Spades"
 	//fmt.Println(card)
 	cards := newDeck()
-
-	cards.print()
+	fmt.Println(cards.toString())
 
 }
